@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="../../static/style.css" />
+  </head>
+  <body>
+    <div class="telaLogin">
+      <h1>Login</h1>
+      <form class="formularios" action="/login" method="post">
+        <div class="configCx">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            placeholder="Digite Aqui seu Email  nome@seu_provedor_de_email.com"
+            id="email"
+            name="email"
+            required
+          />
+        </div>
+        <div class="senha configCx">
+          <label for="senha">Senha:</label>
+          <input
+            type="password"
+            placeholder="Digite Aqui sua Senha (password)"
+            id="senha"
+            name="senha"
+            required
+          />
+        </div>
+        <div class="btnLogin configCx">
+          <input type="submit" value="Entrar" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
