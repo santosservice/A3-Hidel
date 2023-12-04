@@ -19,7 +19,7 @@ html {
   display: flex;
   width: 100vw;
   height: 100vh;
-  background-image: url(../static/Img/patas\ de\ cachorro2.jpg);
+  background-image: url(static/Img/patas\ de\ cachorro.jpg);
   justify-content: center;
   align-items: center;
 }
